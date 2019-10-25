@@ -11,5 +11,9 @@ for (i = 0; i < 6; i++) {
   }
 }
 
-// output
-console.log(list);
+// output con check se sono tutti pari
+if (list.length == 0) {
+  console.log('I numeri sono tutti pari');
+} else {
+  console.log(list);
+}
